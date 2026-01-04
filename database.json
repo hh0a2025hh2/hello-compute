@@ -1,0 +1,62 @@
+{
+    "users": [
+        {
+            "username": "admin",
+            "password": "123",
+            "employeeName": "احمد محمد",
+            "jobTitle": "مدير عام",
+            "role": "admin",
+            "dept": "الإدارة العليا",
+            "phone": "07701234567"
+        },
+        {
+            "username": "hr",
+            "password": "123",
+            "employeeName": "سارة علي",
+            "jobTitle": "مدير موارد بشرية",
+            "role": "user",
+            "dept": "قسم الموارد البشرية",
+            "phone": "07801234567"
+        },
+        {
+            "username": "account",
+            "password": "123",
+            "employeeName": "علي حسن",
+            "jobTitle": "محاسب اقدم",
+            "role": "user",
+            "dept": "قسم الحسابات",
+            "phone": "07901234567"
+        },
+        {
+            "username": "legal",
+            "password": "123",
+            "employeeName": "منى يوسف",
+            "jobTitle": "مشاور قانوني",
+            "role": "user",
+            "dept": "قسم القانونية",
+            "phone": "07501234567"
+        }
+    ],
+    "messages": [
+        {
+            "id": 1,
+            "type": "inbox",
+            "from": "قسم الموارد البشرية",
+            "to": "الإدارة العليا",
+            "subject": "تحديث بيانات",
+            "number": "HR-2024-892",
+            "date": "2024-12-28",
+            "status": "جديد"
+        },
+        {
+            "id": 2,
+            "type": "inbox",
+            "from": "قسم الحسابات",
+            "to": "الإدارة العليا",
+            "subject": "مصادقة صرفيات",
+            "number": "ACC-2024-110",
+            "date": "2024-12-27",
+            "status": "مقرؤ"
+        }
+    ]
+}
